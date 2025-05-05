@@ -44,7 +44,7 @@
 
 > 📷 Screenshot of Spenker Expense Tracker main screen
 
-![Spenker Screenshot](screenshots/ss.png)
+![Spenker Screenshot](screenshot/ss.png)
 
 ---
 
