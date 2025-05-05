@@ -5,7 +5,7 @@ def add_expense():
     amount = float(input("Enter amount: "))
     category = input("Enter category: ")
     note = input("Enter note: ")
-    date = input("Enter date (YYYY-MM-DD): ")
+    date = input("Enter date (DD-MM-YYYY): ")
 
 # Dictionary, containing details of an expense
     expense = {
@@ -35,7 +35,8 @@ def total_expense():
     print(f"Total expenses: ₹{total}")
 
 
-# This function must be executed every time you run the program 
+# This function will be executed every time after one option
+# is completed and every time you run the program. 
 def menu():
     while True:
         print("\n--- Spenker Expense Tracker ---")
